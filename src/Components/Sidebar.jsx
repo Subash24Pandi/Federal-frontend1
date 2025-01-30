@@ -35,7 +35,7 @@ const Sidebar = () => {
             remark,
             bankIfsc : branchInfo.ifsc,
             bankName: branchInfo.bankName,
-           // bankLogo : branchInfo.logo,
+            bankLogo : branchInfo.logo,
             address : branchInfo.branchName
         };
   
