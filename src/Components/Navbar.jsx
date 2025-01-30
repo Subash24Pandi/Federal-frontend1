@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between px-3 py-1 items-center border-b-2 border-slate-950 mb-2'>
         <img src={logo} alt="logo" className='w-56' onClick={onClickLogo} />
-        <img src = {branchInfo.logo} alt = "bank logo" className = 'w-56' />
+        //<h1  className = 'w-56' > The FEDERAL Bank Ltd.</h1>
         <div className='flex justify-between gap-10 items-center'>
             <button className='flex items-center gap-2 text-2xl bg-red-600 text-white p-2 rounded-lg' 
                      onClick={onClickHandler}>
